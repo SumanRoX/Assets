@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    background-color: #21D4FD;
+background-image: -webkit-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+background-image: -moz-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+background-image: -o-linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+.container{
+    background:white;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    display: grid;
+    transform: translate(-50%,-50%);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 80px;
+    box-shadow: 9px -6px 88px 1px rgba(44,209,201,1);
+}
+.container .pic{
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+}
+.container .info{
+    grid-row: 2;
+    background-color: #2F3030;
+    font-size: 26px;
+    display: grid;
+    grid-template-columns: 3(1fr);
+}
+.container .info h3{
+    grid-column: 2;
+    color: white;
+}
+.container .scm{
+    grid-row: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    background-color: transparent;
+    padding: 2px;
+}
+.container .pix{
+    grid-row: 2;
+    background-image: url("http://profilepicturesdp.com/wp-content/uploads/2018/07/profile-picture-black-and-white-1.jpg");
+    background-size: cover;
+}
+i{
+    align-self: center;
+    margin: 10px;
+    color:#8F8F8F;
+    font-size: 25px;
+}

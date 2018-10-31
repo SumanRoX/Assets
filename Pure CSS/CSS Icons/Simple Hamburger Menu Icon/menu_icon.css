@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    background: rgba(36, 150, 151, .5);
+}
+.icon{
+    height: 20vh;
+    width: 20vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.ix{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height: 5px;
+    width: 3em;
+    background: white;
+    margin: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    transition: .5;
+}
+.ix:before,
+.ix:after
+{
+    content: '';
+    position: absolute;
+    width: 3em;
+    height: 5px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+
+.ix:before{
+    top: -16px;
+}
+.ix:after
+{
+    top: 16px;
+}

@@ -33,5 +33,8 @@ grids,
 animations
 Documentations......etc
 
+Github branches
+In the repository there are 3 branches.the Master,Bugs and Develop.This branches have been created in order to facilitate maintenance on our end and also make work easier for developers.
+
 Despit the free will given to our contributors we would also like to point out that (Assets) is a young and independent project therefore any contributions made is expected to be original and unique in order for them to be considered for the framework.Therefore plagarism is strongly discouraged.This is to avoid potential disagreements that may arise in the near future by existing web based frameworks.
 Further information will be conveyed after each and every update and can also be found on the MuzeTech website (https://muzetech.tech) you can also email us via email (muzetech11@gmail.com) in case of any suggestions,comments or inquiries [no spams allowed].

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16);
+  border: solid 0.1px #fbfbfb;
+  display: grid;
+  grid-template-rows: 4(1fr);
+  color: #707070;
+  transition: 0.5s;
+  height: 22rem;
+  width: 15rem;
+}
+.card:hover{
+    box-shadow: -1px 0px 11px 2px rgba(199,199,199,1);
+}
+.card .header {
+    grid-row: 1;
+    background-color: #fbfbfb;
+}
+.card .header h4{
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+}
+.card .img img{
+    grid-row: 2;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    transition: 0.5s;
+}
+.card .info{
+    grid-row: 3;
+    font-size: 20px;
+}
+.card .info h4,
+.card .info h6{
+    margin: 10px;
+    text-align: center;
+}
+.card .info h4{
+    background-color: #EFEFEF;
+}
+.card .info h6{
+    font-size: 13px;
+}
+.card .buy{
+    grid-row: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #fbfbfb;
+    text-align: center;
+    margin-top: 25px;
+}
+.card .buy a{
+    line-height: 1.43;
+    text-decoration: none;
+    color: #707070;
+}
+.card .buy a:hover{
+    color: #FB1267;
+}
+@media (max-width:768px)
+{
+    .card{
+        width: 260px;
+        height: 390.2px;
+    }
+    .card .header{
+        height: 50.1px;
+    }
+    .card .info
+    {
+        height: 50px;
+    }
+    .card .buy a{
+        font-size: 25px;
+    }
+}
+@media (max-width :375px)
+{
+    .card{
+        transform: scale(.8);
+    }
+}
